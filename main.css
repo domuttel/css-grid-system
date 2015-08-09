@@ -1,5 +1,9 @@
 body {
   height: 700px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
 }
 
 .row1{
@@ -7,59 +11,91 @@ body {
   width: auto;
   height: 9.9%;
   margin: 20px;
-  border: black;
-  background-color: red;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  border-style: dotted;
 }
 
 .row2{
   position: relative;
   width: auto;
   height: 49.9%;
-  margin: 20px auto;
-  border: black;
-  background-color: blue;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  box-align: center;
+  margin: 20px;
+  border-style: dotted;
 }
 
 .col-4{
-  float: left;
-  width: 40%;
-  height: 50%;
-  margin: 20px auto;
-  background-color: #C2FFFB;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  position: absolute;
+  left: 1em;
+  top: 1.6em;
+  width: 37%;
+  height: 40%;
+  border-style: solid;
+  text-align: center;
+
+/*  box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-box-orient: horizontal;*/
 
 }
 
 .col-8{
-  float:right;
-  width: 60%;
-  height: 100%;
-  margin: 20px;
-  background-color: #617F7E;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  position: absolute;
+  right: 2.2em;
+  top: 1.6em;
+  width: 57%;
+  height: 86%;
+  border-style: solid;
+  text-align: center;
+
+/*  box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-box-orient: horizontal;*/
 
 }
 .row4{
-  position: static;
+  position: relative;
+  width: 90%;
+  height: 30%;
+  border-style: dotted;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.boxes{
+    display:inline-block;
+    height:30%;
+    width: 6%;
+    border-style: solid;
+
+
 }
 .row3{
   position: relative;
   width: auto;
   height: 39.9%;
   margin: 20px;
-  border: black;
-  background-color: green;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  border-style: dotted;
+
+}
+
+.col-10{
+  position: absolute;
+  left: 1em;
+  top: 1.6em;
+  width: 47%;
+  height: 86%;
+  border-style: solid;
+  text-align: center;
+}
+
+.col-11{
+  position: absolute;
+  right: 2.2em;
+  top: 1.6em;
+  width: 47%;
+  height: 86%;
+  border-style: solid;
+  text-align: center;
 }
